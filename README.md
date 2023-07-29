@@ -1,4 +1,5 @@
 Rock Paper Scissors Game
+
 A simple command-line implementation of the classic Rock Paper Scissors game, where you play against the computer. This project is part of the The Odin Project curriculum.
 
 How it Works:
