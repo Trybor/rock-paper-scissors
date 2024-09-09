@@ -1,0 +1,218 @@
+body {
+    /* Main background image with styling */
+    background-image: url("img/background.png");
+    height: 100%;
+    font-family: 'Arial Narrow Bold', sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+#startbutton {
+    appearance: none;
+    background-color: #FFFFFF;
+    border-radius: 40em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: none;
+    box-shadow: #ADCFFF 0 -12px 6px inset;
+    box-sizing: border-box;
+    color: #000000;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1.2rem;
+    font-weight: 700;
+    letter-spacing: -.24px;
+    outline: none;
+    padding: 1rem 1.3rem;
+    quotes: auto;
+    text-align: center;
+    text-decoration: none;
+    transition: all .15s;
+    user-select: none;
+    touch-action: manipulation;
+    position: absolute;
+    top: 50vh;
+}
+
+#startbutton:hover {
+    background-color: #FFC229;
+    box-shadow: #FF6314 0 -6px 8px inset;
+    transform: scale(1.125);
+}
+
+#startbutton:active {
+    transform: scale(1.025);
+}
+
+#endbutton {
+    appearance: none;
+    background-color: #FFFFFF;
+    border-radius: 40em;
+    border-style: none;
+    box-shadow: #ADCFFF 0 -12px 6px inset;
+    box-sizing: border-box;
+    color: #000000;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1.2rem;
+    font-weight: 700;
+    letter-spacing: -.24px;
+    margin: 0;
+    outline: none;
+    padding: 1rem 1.3rem;
+    quotes: auto;
+    text-align: center;
+    text-decoration: none;
+    transition: all .15s;
+    user-select: none;
+    touch-action: manipulation;
+}
+
+#endbutton:hover {
+    background-color: #FFC229;
+    box-shadow: #FF6314 0 -6px 8px inset;
+    transform: scale(1.125);
+}
+
+#endbutton:active {
+    transform: scale(1.025);
+}
+
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#endcontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.gamecontainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+
+.topcontainer {
+    color: white;
+    font-size: 40px;
+}
+
+.bottomcontainer {
+    display: none;
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+
+.playercontainer {
+    background-color: rgb(70, 70, 70);
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 20px;
+    width: 400px;
+    height: 320px;
+}
+
+.playerinformation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.playerlogo {
+    margin-right: 1vw;
+}
+
+.playerh1 {
+    text-align: center;
+    color: white;
+}
+
+.logo {
+    height: 50px;
+    width: 50px;
+}
+
+.winninglogo {
+    display: none;
+    text-align: center;
+    height: 100px;
+    width: 100px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.playerscore {
+    color: white;
+}
+
+.gameselections {
+    display: flex;
+    justify-content: center;
+
+}
+
+.gameselection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    width: 200px;
+    height: 120px;
+    margin: 15px;
+    border-radius: 3px;
+    box-shadow: 4px 5px 0px black;
+    border-bottom: 2px solid;
+    border-right: 1px solid;
+    transform: translate(-1%, -3%);
+}
+
+.gameselection-player:hover {
+    background-color: lightgrey;
+    box-shadow: 3px 3px 1px;
+    border-bottom: 2px solid;
+    transform: translate(1%, -1%);
+    transition: all 0.1s ease-in;
+}
+
+.gameselection-player:active {
+    box-shadow: none;
+    transform: translate(3px, 4px);
+}
+
+.selection {
+    height: 50px;
+    width: 50px;
+    object-fit:contain;
+}
+
+.gameselectiontext {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.winninglogodiv {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
